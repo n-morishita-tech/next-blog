@@ -87,7 +87,7 @@
 
 ```bash
 git clone <リポジトリURL>
-cd blog
+cd next-blog
 
 ```
 
