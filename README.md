@@ -104,19 +104,21 @@ DATABASE_URL="file:./dev.db"
 NEXTAUTH_SECRET="任意のシークレット文字列"
 ```
 
-4. Prisma マイグレーション
+4. public フォルダ直下に uploads フォルダを作成
+
+5. Prisma マイグレーション
 
 ```bash
 npx prisma migrate dev --name init
 ```
 
-5. 開発サーバー起動
+6. 開発サーバー起動
 
 ```bash
 npm run dev
 ```
 
-6. ブラウザで `http://localhost:3000` にアクセス
+7. ブラウザで `http://localhost:3000` にアクセス
 
 ## ダミーデータを作成する場合
 
